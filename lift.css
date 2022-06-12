@@ -12,18 +12,6 @@ body {
     font-size: var(--body-font)!important;
 }
 
-.notion-header__title-wrapper {
-    max-width: var(--lift-width)!important;
-}
-
-.notion-header__title {
-    display: none!important;
-}
-
-.notion-header__content.max-width {
-    max-width: var(--lift-width)!important;
-}
-
 /* Remove Notion Header (Page Title, Cover and Icon)*/
 .notion-header {
     display: none!important;
