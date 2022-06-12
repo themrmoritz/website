@@ -12,14 +12,18 @@ body {
     font-size: var(--body-font)!important;
 }
 
-/* Remove Notion Header (Page Title, Cover and Icon)*/
-.notion-header {
+.notion-header__title-wrapper {
+    max-width: var(--lift-width)!important;
+}
+
+.notion-header__title {
     display: none!important;
 }
 
-.super-content {
-    padding-top: 60px!important; /* You can change this number */ 
+.notion-header__content.max-width {
+    max-width: var(--lift-width)!important;
 }
+
 
 .notion-embed__content 
 {
